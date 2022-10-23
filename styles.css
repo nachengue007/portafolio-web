@@ -1,7 +1,7 @@
 *{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:#f0f8ff;
-  background-color: #500000;
+  color:#DFF6FF;
+  background-color: #06283D;
 }
 
 body{
@@ -12,7 +12,7 @@ body{
 }
 
 h1,h2{
-  color:#d60a0a;
+  color:#256D85;
 }
 
 p{  
@@ -25,7 +25,7 @@ p{
 footer{
   display: flex;
   padding: 1em;
-  background-color:#e80000;
+  background-color:#256D85;
   justify-content: space-evenly;
   margin: auto;
   margin-top: 2em;
@@ -48,12 +48,12 @@ iframe{
 .links{
   text-decoration: none;
   color: white;
-  background-color: #ac0000;
+  background-color: #47B5FF;
   padding: 0.5em;
 }
 
 .links:hover{
-  background-color: #912222;
+  background-color: #186ca4;
 }
 
 .certificado{
@@ -82,6 +82,6 @@ iframe{
 }
 
 ::selection{
-  background-color: #ff49493b;
-  color: azure;
+  background-color: #256D85;
+  color: #DFF6FF;
 }
