@@ -90,3 +90,9 @@
     margin: auto;
     max-width: 450px;
   }
+
+.phpchan{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
