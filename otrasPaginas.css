@@ -1,0 +1,96 @@
+*{
+  font-family: Roboto-Regular;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+footer{  
+  display: flex;
+  bottom: 0;
+  padding: 1em;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+iframe{
+  display: block;
+  margin: auto;
+  padding: .5em;
+}
+
+#h1{
+  text-align: center;
+  font-size: 3.5em;
+  font-family: Roboto-Bold;
+  color: #000000;
+}
+
+#h2{
+  font-size: 1.25em;
+  font-family: Roboto-Regular;
+  color: #727272;
+}
+
+#h3{
+  text-align: center;
+  font-size: 1em;
+  font-family: Roboto-Regular;
+  color: #727272;
+}
+
+#item{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#items01{
+  padding: 16px;
+  height: 22px;
+  animation: itemNoHover;
+  animation-duration: .5s;
+  background-color: #ffffff;
+}
+
+#items01:hover{
+  animation: itemHover;
+  animation-duration: .5s;
+  background-color: #919191;
+}
+
+@keyframes itemHover{
+  from{
+    background-color: #ffffff;
+  }
+  to{
+    background-color: #919191;
+  }
+}
+  
+@keyframes itemNoHover{
+  from{
+    background-color: #919191;
+  }
+  to{
+    background-color: #ffffff;
+  }
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(fonts/Roboto-Regular.ttf);
+}
