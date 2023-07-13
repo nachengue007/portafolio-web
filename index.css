@@ -43,13 +43,6 @@ footer{
   font-family: Roboto-Regular;
 }
 
-#yo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
-}
-
 #items{
   padding: 16px;
   animation: itemNoHover;
